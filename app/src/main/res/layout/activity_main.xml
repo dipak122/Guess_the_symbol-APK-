@@ -43,7 +43,7 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.692"
+        app:layout_constraintHorizontal_bias="0.694"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.263" />
@@ -91,8 +91,8 @@
 
     <TextView
         android:id="@+id/tvAnswer"
-        android:layout_width="324dp"
-        android:layout_height="120dp"
+        android:layout_width="325dp"
+        android:layout_height="201dp"
         android:text="Symbol :-"
         android:textColor="#03A9F4"
         android:textSize="36sp"
@@ -114,6 +114,7 @@
         app:layout_constraintHorizontal_bias="0.442"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+
         app:layout_constraintVertical_bias="0.521" />
 
     <TextView
@@ -123,6 +124,7 @@
         android:shadowColor="#03A9F4"
         android:text="Guess the Symbol !!!"
         android:textColor="#9C27B0"
+        android:enabled="false"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -173,16 +175,4 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.265" />
 
-    <TextView
-        android:id="@+id/show_ans"
-        android:layout_width="309dp"
-        android:layout_height="70dp"
-        android:layout_marginStart="40dp"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.252"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.695" />
 </androidx.constraintlayout.widget.ConstraintLayout>
